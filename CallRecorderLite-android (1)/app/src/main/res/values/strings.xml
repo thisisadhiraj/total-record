@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CallRecorder Lite</string>
+    <string name="notification_listener_label">CallRecorder Call Detector</string>
+    <string name="accessibility_service_label">CallRecorder Auto-Record Helper</string>
+    <string name="accessibility_service_description">Automatically confirms the Android system audio capture prompt when a phone or VoIP call starts, enabling hands-free recording.</string>
+
+    <!-- Main Screen -->
+    <string name="status_active_title">Auto-Recording Active</string>
+    <string name="status_active_subtitle">Cellular, WhatsApp, Telegram &amp; Messenger calls are monitored.</string>
+    <string name="status_incomplete_title">Setup Incomplete</string>
+    <string name="status_incomplete_subtitle">Tap here to complete required permissions so auto-recording works reliably.</string>
+    <string name="status_recording_now">Recording in progress (%1$s)</string>
+    <string name="btn_stop_recording">Stop</string>
+    <string name="btn_setup_wizard">Setup</string>
+    <string name="empty_recordings_title">No call recordings yet</string>
+    <string name="empty_recordings_subtitle">Saved recordings appear in Music/CallRecordings automatically after your calls.</string>
+
+    <!-- Onboarding Screen -->
+    <string name="onboarding_title">Setup Wizard</string>
+    <string name="onboarding_subtitle">Complete these 4 quick steps so calls record automatically in the background.</string>
+    <string name="status_enabled">✅ Enabled</string>
+    <string name="status_required">⚠️ Required</string>
+
+    <string name="step1_title">1. Basic Permissions</string>
+    <string name="step1_desc">Required for microphone capture, phone call state detection, and recording status notifications.</string>
+    <string name="step1_btn">Grant Permissions</string>
+
+    <string name="step2_title">2. Call Detector (VoIP)</string>
+    <string name="step2_desc">Detects active calls from WhatsApp, WhatsApp Business, Telegram, and Messenger.</string>
+    <string name="step2_btn">Enable Notification Access</string>
+
+    <string name="step3_title">3. Auto-Record Helper (Android 13+ Guide)</string>
+    <string name="step3_desc">Automatically accepts the system audio capture prompt when a call begins.</string>
+    <string name="step3_guide_header">Unlock Sideloaded Restricted Settings:</string>
+    <string name="step3_guide_1">1. Tap \"1. Open App Info\" below.</string>
+    <string name="step3_guide_2">2. Tap the 3 dots (⋮) in the top-right corner.</string>
+    <string name="step3_guide_3">3. Tap \"Allow restricted settings\", then return and enable Auto-Record.</string>
+    <string name="step3_btn_app_info">1. Open App Info</string>
+    <string name="step3_btn_accessibility">2. Enable Accessibility</string>
+
+    <string name="step4_title">4. Prevent Background Killing</string>
+    <string name="step4_desc">Exempts the recorder from battery optimization so long calls are never cut off.</string>
+    <string name="step4_btn">Disable Battery Optimization</string>
+
+    <string name="btn_continue_main">Continue to Recordings</string>
+
+    <!-- Dialogs & Actions -->
+    <string name="delete_confirm_title">Delete recording?</string>
+    <string name="delete_confirm_message">Permanently delete %1$s?</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="share_chooser_title">Share Call Recording</string>
+</resources>

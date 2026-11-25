@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ic_launcher_background">#FFFFFF</color>
+    <color name="primary">#1565C0</color>
+    <color name="primary_dark">#0D47A1</color>
+    <color name="primary_container">#E3F2FD</color>
+    <color name="surface_bg">#F6F8FA</color>
+    <color name="card_bg">#FFFFFF</color>
+    <color name="text_primary">#111827</color>
+    <color name="text_secondary">#6B7280</color>
+    <color name="divider">#E5E7EB</color>
+
+    <color name="status_ok_bg">#ECFDF5</color>
+    <color name="status_ok_border">#A7F3D0</color>
+    <color name="status_ok_text">#065F46</color>
+
+    <color name="status_warn_bg">#FFFBEB</color>
+    <color name="status_warn_border">#FDE68A</color>
+    <color name="status_warn_text">#92400E</color>
+
+    <color name="status_recording_bg">#FEF2F2</color>
+    <color name="status_recording_text">#991B1B</color>
+
+    <color name="whatsapp_green">#25D366</color>
+    <color name="telegram_blue">#229ED9</color>
+    <color name="messenger_purple">#0084FF</color>
+    <color name="phone_teal">#0F766E</color>
+    <color name="danger_red">#DC2626</color>
+</resources>
